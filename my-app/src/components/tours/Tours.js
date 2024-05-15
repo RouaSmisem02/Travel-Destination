@@ -1,16 +1,14 @@
 import React from 'react';
 import './Tours.css';
 import data from '../../data/db.json';
+import Tour from './tour/Tour';
 function Tours() {
   return (
-    <div>
-      {data.map((tour) => (
-        <div key={tour.id}>
-          <h2>{tour.name}</h2>
-          <img src={tour.image} alt={tour.name} />
-        </div>
+    <>
+      {data.map(tour => (
+        <Tour key={tour.id} tour={tour} />
       ))}
-    </div>
+    </>
   );
 }
 export default Tours;
