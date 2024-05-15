@@ -1,31 +1,31 @@
 
 .container {
-    max-width: 800px; /* Maximum width for the content */
-    margin: 0 auto; /* Center the content horizontally */
-    padding: 20px; /* Add padding around the content */
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
   }
   
   .details-section {
-    margin-top: 20px; /* Add space between tour description and details */
+    margin-top: 20px; 
   }
   
   h2 {
-    color: #333; /* Title color */
+    color: #333; 
   }
   
   p {
-    color: #555; /* Text color */
-    margin-bottom: 10px; /* Add space between paragraphs */
+    color: #555; 
+    margin-bottom: 10px; 
   }
   
   button {
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
-    border: none; /* Remove button border */
-    padding: 10px 20px; /* Add padding to button */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #064385; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
   }
   
   button:hover {
-    background-color: #0056b3; /* Button background color on hover */
+    background-color: #1263b9; 
   }

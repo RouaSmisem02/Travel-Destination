@@ -1,9 +1,9 @@
 .tours-container {
-    display: flex; /* Use flexbox */
-    flex-wrap: wrap; /* Wrap items to next line if needed */
-    justify-content: center; /* Center align items horizontally */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
   }
   
   .tour-card {
-    margin: 20px; /* Add margin around each tour card */
+    margin: 20px; 
   }
