@@ -1,17 +1,19 @@
-h1 {
-    font-family: 'Arial', sans-serif;
-    font-size: 36px;
-    color: #333;
-    text-align: center;
-    margin-top: 50px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  
-  h1::after {
-    content: '';
-    display: block;
-    width: 100px;
-    height: 2px;
-    background-color: #cc0fdd;
-    margin: 20px auto;
-  }
+/* Header.css */
+
+nav {
+  background-color: #0550f3; 
+  color: #fff; 
+  padding: 10px; 
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none; 
+  margin-right: 20px; 
+}
+
+
+nav a:hover {
+  text-decoration: underline; 
+  color: rgb(7, 1, 54); 
+}
